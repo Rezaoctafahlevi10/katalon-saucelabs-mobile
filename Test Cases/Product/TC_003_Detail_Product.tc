@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Succes menampilkan view detail Product</description>
+   <name>TC_003_Detail_Product</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>12e359bd-59a3-479e-88ed-61541e1fd375</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Field URL Tidak di isi</description>
+   <name>TC_001_Field_Url_Required</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9b8f6219-db58-4116-8eb5-916eb965ca14</testCaseGuid>
+</TestCaseEntity>
