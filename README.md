@@ -58,26 +58,19 @@ Pilih perangkat/emulator yang sedang aktif, kemudian klik OK.
 4. Test Suite & Skenario Pengujian
 
 Berikut adalah rincian skenario pengujian fungsional (Automation Test Cases) yang tercakup di dalam proyek ini: <br>
-|Test Case Id ||Test Case Deskripsi |Test Skenario Deskripsi|Expected Result |  <br>
-| :--- | :--- | :--- | :---| <br>
-
-| TC_001_Succes_Login_Valid| Pengecekan succes login | Pengetesan succes login | | Berhasil login dan diarahkan ke halaman Product |
-| TC_002_Invalid_Username_and_Password| Pengecekan Gagal login | Pengetesan Gagal login | | Menampilkan pesan "Username and password do not match any user in this service" |
-| TC_003_Username_required_invalid| Pengecekan filed username wajib diisi | Pengetesan field username | | Menampilkan pesan "Username is required" |
-
-| TC_001_Succes_Logout| Pengecekan succes login | Pengetesan succes login | | Succes logout dan diarahkan ke halaman login |
-
-| TC_001_Add_Cart_Product| Pengecekan product succes disimpan dalam keranjang | Pengetesan penambahan product dalam keranjang | | Product berhasil ditambahkan kedalam keranjang |
-| TC_002_Remove_Product | Pengecekan product succes di hapus dalam keranajng | Pengetesan succes login | | Berhasil login dan diarahkan ke halaman Product |
-| TC_003_Detail_Product| Pengecekan succes login | Pengetesan succes login | | Berhasil login dan diarahkan ke halaman Product |
-
-| TC_001_Field_Url_Required| Pengecekan succes login | Pengetesan succes login | | Berhasil login dan diarahkan ke halaman Product |
-| TC_001_Succes_Filter_Product_Low_Price| Pengecekan succes login | Pengetesan succes login | | Berhasil login dan diarahkan ke halaman Product |
+| Test Case ID | Test Case Deskripsi | Test Skenario Deskripsi | Expected Result |
+| :--- | :--- | :--- | :--- |
+| **TC_001_Succes_Login_Valid** | Pengecekan succes login | Pengetesan succes login | Berhasil login dan diarahkan ke halaman Product |
+| **TC_002_Invalid_Username_and_Password** | Pengecekan Gagal login | Pengetesan Gagal login | Menampilkan pesan "Username and password do not match any user in this service" |
+| **TC_003_Username_required_invalid** | Pengecekan filed username wajib diisi | Pengetesan field username | Menampilkan pesan "Username is required" |
+| **TC_001_Succes_Logout** | Pengecekan succes login | Pengetesan succes login | Success logout dan diarahkan ke halaman login |
+| **TC_001_Add_Cart_Product** | Pengecekan product succes disimpan dalam keranjang | Pengetesan penambahan product dalam keranjang | Product berhasil ditambahkan kedalam keranjang |
+| **TC_002_Remove_Product** | Pengecekan product succes di hapus dalam keranajng | Pengetesan succes login | Product berhasil dihapus dari keranjang |
+| **TC_003_Detail_Product** | Pengecekan succes login | Pengetesan succes login | Berhasil menampilkan halaman detail product |
+| **TC_001_Field_Url_Required** | Pengecekan menu WebView field Url Site | Pengetesan menu WebView field Url Site | Menampilkan pesan "Please provide a correct https url" |
+| **TC_001_Succes_Filter_Product_Low_Price** | Pengecekan filter product dari harga termurah | Pengetesan filter product by harga termurah | Berhasil mengurutkan product dari harga termurah |
 
 5. Test Coverage
-
-Functional Automation Coverage: 100% mencakup alur dasar manajemen produk (Product Catalog, Filtering, dan Shopping Cart Management).
-
+Functional Automation Coverage: 100% mencakup alur dasar manajemen produk (Product Catalog, Filtering, Login, Logout dan Webview).
 Execution Status: PASSED pada eksekusi pengujian di Emulator Android (Pixel 6 / API Level 30+).
-
 Locator Strategy: Menggunakan kombinasi Custom XPath, Resource-ID, dan Accessibility ID untuk menjamin stabilitas eksekusi elemen di Appium.
